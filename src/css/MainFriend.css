@@ -1,0 +1,8 @@
+.Friendmain{
+    flex: 1;
+    padding: 5px ;
+    display: flex;
+    max-width: 600px;
+    margin-top: 50px;
+    
+}

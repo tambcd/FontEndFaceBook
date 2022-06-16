@@ -1,0 +1,36 @@
+.widget{
+    margin-right: 10px;
+    height: 100vh;
+    position: sticky;
+    width: 200px;
+    top: 0;
+}
+.widget_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+} 
+.wibget_bodyOption{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.wibget_bodyOption h4{
+
+    margin-left: 10px;
+    font-size: 14px;
+}
+.ml10 p {
+    font-size: 12px;
+    color: gray;
+
+}
+.ml10 svg {
+    font-size: 16px;
+    color: gray;
+    
+}

@@ -1,0 +1,116 @@
+
+  .chatBar__list-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .chatBar__list-name {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  .chat {
+    
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    height: 450px;
+    min-height: 450px;
+    max-height: 450px;
+    background: #ffffff;
+    width: 330px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .chat__header {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #f0f2f5;
+  }
+  .chat__first {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .chat__header-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .chat__header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .chat__header-name {
+    margin-left: 6px;
+    font-weight: 600;
+  }
+  .chat__second {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .chat__header-icons {
+    margin: 10px 5px;
+    color: silver;
+    cursor: pointer;
+  }
+  .chat__body {
+    padding: 14px;
+    font-size: 14px;
+    overflow:auto;
+    height:300px;
+  }
+  .chat__left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .chat__left p {
+    display: inline-block;
+    background: #f0f2f5;
+    padding: 7px;
+    color: #333;
+    border-radius: 6px;
+    margin-top: 6px;
+  }
+  .chat__right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .chat__right p {
+    display: inline-block;
+    background: #0d8cf1;
+    padding: 7px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 6px;
+  }
+  .chat__footer {
+    position: fixed;
+    bottom: 0px;
+    width: 400px;
+  }
+  .chat__input {
+    width: 230px;
+    border: none;
+    background: #f0f2f5;
+    outline: none;
+    padding: 15px 13px;
+  }
+  .btnsend{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .photo{
+    align-items: center;
+    margin-right: 5px;
+    height: 100%;
+    cursor: pointer;
+
+  }
+  

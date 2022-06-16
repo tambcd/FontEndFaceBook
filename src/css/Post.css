@@ -1,0 +1,199 @@
+.post{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+.post_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_topLeft{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.postinfor{
+    margin-left: 10px; 
+    
+}
+.postinfor p {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.postinfor p svg{
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+.post_mid p {
+    margin: 20px 0px;
+}
+.post_mid img ,video {
+    width: 100%;
+
+}
+
+.post_bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.post_bottomOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.post_bottomOption p {
+    margin-left: 5px;
+}
+
+.post_bottom1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.post_bottomOption1{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 10px;
+}
+.post_bottomOption1 p {
+    margin-left: 5px;
+}
+
+.icon-hover {
+  color: #999;
+  font-weight: bold;
+  padding-left: 20px;
+  text-decoration: none;
+  position: relative;
+  /*background: green;*/ }
+  .icon-hover:hover {
+    text-decoration: underline; }
+  .icon-hover:before {
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: inline-block;
+  }
+.box-list-icons {
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 52px;
+  top: -64px;
+  left: -20px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  /*label*/
+  /*end label*/ }
+  .box-list-icons:after {
+    content: "";
+    height: 10px;
+    width: 294px;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    display: inline-block;
+    /*background: green;*/ }
+  .box-list-icons label {
+    display: none;
+    background: rgba(0, 0, 0, 0.75);
+    white-space: nowrap;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    position: absolute;
+    color: #fff;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .box-list-icons [class*="icon"]:hover label {
+    display: block; }
+  .box-list-icons [class*="icon"] {
+    display: inline-block;
+    background: #ddd url("https://firebasestorage.googleapis.com/v0/b/facebookclone-14463.appspot.com/o/iconfacebook%2Ficon-lg.png?alt=media&token=33e16fae-f1da-442d-9551-1c594c8aed18") no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    margin: 6px 0 6px 8px;
+    float: left;
+    border-radius: 50%;
+    transform: scale(0.01) translateY(200px);
+    transform-origin: bottom;
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(0, 0, 0, 1.225);
+    opacity: 0; }
+
+.icon-hover:hover .box-list-icons {
+  /*display: block;*/
+  height: 52px;
+  width: 294px;
+  overflow: initial; }
+  .icon-hover:hover .box-list-icons [class*="icon"] {
+    transform: scale(1) translateY(0);
+    opacity: 1; }
+  .icon-hover:hover .box-list-icons .icon-phanno {
+    background-position: 0 0;
+    transition-duration: 600ms; }
+  .icon-hover:hover .box-list-icons .icon-haha {
+    background-position: 0 -80px;
+    transition-duration: 450ms; }
+  .icon-hover:hover .box-list-icons .icon-thich {
+    background-position: 0 -120px;
+    transition-duration: 350ms; }
+  .icon-hover:hover .box-list-icons .icon-yeuthich {
+    background-position: 0 -160px;
+    transition-duration: 400ms; }
+  .icon-hover:hover .box-list-icons .icon-buon {
+    background-position: 0 -200px;
+    transition-duration: 550ms; }
+  .icon-hover:hover .box-list-icons .icon-wow {
+    background-position: 0 -240px;
+    transition-duration: 500ms; }
+  .icon-hover:hover .box-list-icons [class*="icon"]:hover {
+    transform: scale(1.225); }
+
+    .Listcomment{
+      width: 100%;
+      height: 400px;
+      overflow-x:hidden;
+      overflow-y:auto;
+  }
+  .sendcomment{
+      margin-top: 20px;
+      margin-left: 15px;
+      display: flex;
+  
+  }
+  .sendcomment input{
+      width: 80%;
+      margin-right: 10px;
+      height: 30px;
+      align-items: center;
+      margin-left: 30px;
+      background-color: #ebebeb;
+      border: none;
+      border-radius: 15px ;
+  }
+  .sendcomment button{
+   
+    border: none;
+    border-radius: 15px ;
+}
+
+ 
+
+

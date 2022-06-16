@@ -1,0 +1,14 @@
+.post_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_topLeft{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.bodycmt{
+    margin-left: 60px;
+}

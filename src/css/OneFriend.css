@@ -1,0 +1,38 @@
+.OneFriend{
+    width: 200px;
+    height: 320px;
+    margin-left: 10px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+
+
+}
+.OneFriend  img {
+    width: 200px;
+    height: 200px;
+}
+.OneFriend p{
+    height: 5px;
+    margin-left: 10px;   
+    font-size: 20px;
+    font-style: normal;
+}
+.OneFriend button{
+    align-items: center;
+    display:grid ;
+    width: 180px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: hsl(240, 55%, 62%);
+    color: aliceblue;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
